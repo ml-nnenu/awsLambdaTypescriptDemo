@@ -32,4 +32,26 @@ export class ToDoListFuncController {
             this.errorHandling(err, res);
         }
     }
+
+    addToDoListItem =async (req: Request, res: Response) => {
+        try {
+            const addedToDoListItem = await this.toDoListFuncService.addToDoListItem(req.body);
+            if(addedToDoListItem){
+                res.status(201).json({addedToDoListItem});
+            }
+        } catch (err) {
+            this.errorHandling(err, res);
+        }
+    };
+
+    deleteToDoListItem =async (req: Request, res: Response) => {
+        try {
+            const deletedToDoListItem = await this.toDoListFuncService.deleteToDoListItem(req.body);
+            if(deletedToDoListItem){
+                res.status(200).json({deletedToDoListItem})
+            }
+        } catch (err) {
+            this.errorHandling(err, res);
+        }
+    };
 }
