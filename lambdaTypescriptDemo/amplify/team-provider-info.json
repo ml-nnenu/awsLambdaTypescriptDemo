@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-lambdatypescriptdemo-dev-145829-authRole",
+      "UnauthRoleArn": "arn:aws:iam::952042177151:role/amplify-lambdatypescriptdemo-dev-145829-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::952042177151:role/amplify-lambdatypescriptdemo-dev-145829-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-lambdatypescriptdemo-dev-145829-deployment",
+      "UnauthRoleName": "amplify-lambdatypescriptdemo-dev-145829-unauthRole",
+      "StackName": "amplify-lambdatypescriptdemo-dev-145829",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:952042177151:stack/amplify-lambdatypescriptdemo-dev-145829/283d06b0-2831-11ed-8b44-02707248f85c",
+      "AmplifyAppId": "d2e86znzak3eay"
+    },
+    "categories": {
+      "function": {
+        "toDoListFunc": {
+          "deploymentBucketName": "amplify-lambdatypescriptdemo-dev-145829-deployment",
+          "s3Key": "amplify-builds/toDoListFunc-59656b74614a4e4e7a5a-build.zip"
+        }
+      }
+    }
+  }
+}

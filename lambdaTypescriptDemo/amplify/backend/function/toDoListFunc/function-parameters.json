@@ -1,0 +1,13 @@
+{
+  "lambdaLayers": [],
+  "permissions": {
+    "storage": {
+      "typescriptDemo": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  }
+}
