@@ -1,5 +1,5 @@
 import express from 'express';
-import {toDoListFuncController} from "./app";
+import {toDoListFuncController} from "../app";
 
 export const toDoListRoutes = express.Router();
 

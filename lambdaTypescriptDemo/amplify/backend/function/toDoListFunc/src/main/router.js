@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.toDoListRoutes = void 0;
 const express_1 = __importDefault(require("express"));
-const app_1 = require("./app");
+const app_1 = require("../app");
 exports.toDoListRoutes = express_1.default.Router();
 exports.toDoListRoutes.get('/toDoList/item', app_1.toDoListFuncController.getToDoListItemByKey);
 exports.toDoListRoutes.get('/toDoList/all', app_1.toDoListFuncController.getAllToDoListItem);

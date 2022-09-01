@@ -36,13 +36,13 @@ app.use(function (req, res, next) {
     next()
 });
 
-//mvc
-import {ToDoListFuncService} from "./service";
-import {ToDoListFuncController} from './controller';
+// mvc
+import {ToDoListFuncService} from "./main/service";
+import {ToDoListFuncController} from './main/controller';
 const toDoListFuncService = new ToDoListFuncService(docClient);
 export const toDoListFuncController = new ToDoListFuncController(toDoListFuncService);
 
-import {toDoListRoutes} from "./router";
+import {toDoListRoutes} from "./main/router";
 app.use(toDoListRoutes);
 
 app.listen(3000, function () {

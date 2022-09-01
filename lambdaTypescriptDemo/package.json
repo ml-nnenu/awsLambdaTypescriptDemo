@@ -7,7 +7,7 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-      "amplify:toDoListFunc": "cd amplify/backend/function/toDoListFunc/ts && yarn install && yarn run tsc && cd -"
+      "amplify:toDoListFunc": "cd amplify/backend/function/toDoListFunc/src && rm -r main && cd ../ts && yarn run tsc && cd -"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.17.10",

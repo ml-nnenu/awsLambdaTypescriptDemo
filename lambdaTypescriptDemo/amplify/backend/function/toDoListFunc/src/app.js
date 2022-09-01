@@ -33,12 +33,12 @@ app.use(function (req, res, next) {
     res.header("Access-Control-Allow-Headers", "*");
     next();
 });
-//mvc
-const service_1 = require("./service");
-const controller_1 = require("./controller");
+// mvc
+const service_1 = require("./main/service");
+const controller_1 = require("./main/controller");
 const toDoListFuncService = new service_1.ToDoListFuncService(docClient);
 exports.toDoListFuncController = new controller_1.ToDoListFuncController(toDoListFuncService);
-const router_1 = require("./router");
+const router_1 = require("./main/router");
 app.use(router_1.toDoListRoutes);
 app.listen(3000, function () {
     console.log("App started");
