@@ -15,7 +15,11 @@
       "function": {
         "toDoListFunc": {
           "deploymentBucketName": "amplify-lambdatypescriptdemo-dev-145829-deployment",
-          "s3Key": "amplify-builds/toDoListFunc-4537622f2b5167633259-build.zip"
+          "s3Key": "amplify-builds/toDoListFunc-4c3161695952514c746b-build.zip"
+        },
+        "lambdatypescriptdemolayer281f04a8": {
+          "deploymentBucketName": "amplify-lambdatypescriptdemo-dev-145829-deployment",
+          "s3Key": "amplify-builds/lambdatypescriptdemolayer281f04a8-LambdaLayerVersion80113149-build.zip"
         }
       }
     }

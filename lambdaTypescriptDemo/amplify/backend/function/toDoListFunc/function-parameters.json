@@ -1,5 +1,13 @@
 {
-  "lambdaLayers": [],
+  "lambdaLayers": [
+    {
+      "type": "ProjectLayer",
+      "resourceName": "lambdatypescriptdemolayer281f04a8",
+      "env": "dev",
+      "version": "Always choose latest version",
+      "isLatestVersionSelected": true
+    }
+  ],
   "permissions": {
     "storage": {
       "typescriptDemo": [

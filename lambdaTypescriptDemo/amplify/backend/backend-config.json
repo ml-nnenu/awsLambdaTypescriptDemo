@@ -6,6 +6,13 @@
       "service": "Lambda",
       "dependsOn": [
         {
+          "category": "function",
+          "resourceName": "lambdatypescriptdemolayer281f04a8",
+          "attributes": [
+            "Arn"
+          ]
+        },
+        {
           "category": "storage",
           "resourceName": "typescriptDemo",
           "attributes": [
@@ -15,6 +22,11 @@
           ]
         }
       ]
+    },
+    "lambdatypescriptdemolayer281f04a8": {
+      "providerPlugin": "awscloudformation",
+      "service": "LambdaLayer",
+      "build": true
     }
   },
   "api": {

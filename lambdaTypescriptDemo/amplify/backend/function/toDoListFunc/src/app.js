@@ -23,6 +23,8 @@ const body_parser_1 = __importDefault(require("body-parser"));
 const middleware_1 = __importDefault(require("aws-serverless-express/middleware"));
 aws_sdk_1.default.config.update({ region: "ap-southeast-1" });
 const docClient = new aws_sdk_1.default.DynamoDB.DocumentClient();
+const myLambdaLayer = require("/opt/myLambdaLayer");
+myLambdaLayer()
 // declare a new express app
 const app = (0, express_1.default)();
 app.use(body_parser_1.default.json());

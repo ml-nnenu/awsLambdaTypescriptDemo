@@ -5,6 +5,9 @@ export type AmplifyDependentResourcesAttributes = {
             "Arn": "string",
             "Region": "string",
             "LambdaExecutionRole": "string"
+        },
+        "lambdatypescriptdemolayer281f04a8": {
+            "Arn": "string"
         }
     },
     "api": {
